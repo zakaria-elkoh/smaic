@@ -4,10 +4,10 @@
 .footer {
   color: #444444;
   background-color: #ffffff;
-  border-top: 1px solid color-mix(in srgb, #1977cc, transparent 75%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--primary-color), transparent 75%);
   font-size: 14px;
   position: relative;
-  margin-top: 60px;
 }
 
 .footer .footer-top {
@@ -52,8 +52,8 @@
 }
 
 .footer .social-links a:hover {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .footer h4 {
@@ -96,7 +96,7 @@
 }
 
 .footer .footer-links ul a:hover {
-  color: #1977cc;
+  color: var(--primary-color);
 }
 
 .footer .footer-contact p {
