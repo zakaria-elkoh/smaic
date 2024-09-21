@@ -489,6 +489,10 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+.container-fluid {
+  max-width: 1400px;
+}
+
 .hide-overflow {
   overflow: hidden;
 }
@@ -621,7 +625,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .navbar .nav-container {
   /* background-color: #1093e54d; */
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin-inline: auto;
   width: 100%;
   display: flex;
@@ -648,6 +652,9 @@ select.form-control:not([size]):not([multiple]) {
 @media (max-width: 767px) {
   .main-nav .navbar-brand {
     border-right: none;
+  }
+  .main-nav .navbar-brand img {
+    max-width: 120px;
   }
 }
 .main-nav .navbar-toggler {
