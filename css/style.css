@@ -628,11 +628,12 @@ select.form-control:not([size]):not([multiple]) {
   align-items: center;
   justify-content: space-between;
 }
+
 .main-nav .navbar-brand {
   /* padding: 20px 40px 20px 50px; */
   padding-block: 20px;
   padding-right: 40px;
-  border-right: 1px solid #e5e5e5;
+  /* border-right: 1px solid #e5e5e5; */
 }
 .main-nav .navbar-brand img {
   max-width: 170px;
