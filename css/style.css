@@ -377,6 +377,12 @@ button:hover {
 }
 .section-title h3 {
   margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.section-title h3 span {
+  font-size: 2rem;
+  font-weight: 900;
 }
 .section-title.white h3,
 .section-title.white p {
@@ -1375,7 +1381,7 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 0;
 }
 .speakers .speaker-item .content h5 a:hover {
-  color: #ff6600;
+  color: var(--primary-color);
 }
 .speakers .speaker-item .content p {
   font-size: 0.875rem;
