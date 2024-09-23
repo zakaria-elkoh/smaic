@@ -270,6 +270,7 @@ button:hover {
   position: relative;
   display: inline-block;
   width: 100%;
+  min-height: 100vh;
 }
 
 .bg-banner-one::after {
