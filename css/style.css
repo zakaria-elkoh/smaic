@@ -1,6 +1,7 @@
 /*=== MEDIA QUERY ===*/
 :root {
   --primary-color: #00a0df;
+  --hover-color: #0594cd;
   --font-size: 16px;
 }
 
@@ -458,7 +459,7 @@ button:hover {
   color: #b3b3b3;
 }
 .form-control:focus {
-  border: 1px solid #ff6600;
+  border: 1px solid var(--primary-color);
   box-shadow: none;
 }
 .form-control.white {
@@ -555,14 +556,15 @@ select.form-control:not([size]):not([multiple]) {
 .btn-main-md {
   padding: 15px 40px;
   border-radius: 0;
-  background: #ff6600;
   color: #fff;
+  background: #e65c00;
   outline: none;
   font-size: 0.9375rem;
+  background: var(--primary-color);
 }
 .btn-main-md:hover {
   color: #fff;
-  background: #e65c00;
+  background: var(--hover-color);
 }
 .btn-main-md:focus {
   color: #fff;
@@ -2181,6 +2183,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .map {
   position: relative;
+  margin-bottom: 60px;
 }
 .map #map {
   height: 480px;
@@ -2191,7 +2194,7 @@ select.form-control:not([size]):not([multiple]) {
   padding: 45px 50px 50px 50px;
   top: 80px;
   left: 10%;
-  background: #ff6600;
+  background: var(--primary-color);
 }
 @media (max-width: 575px) {
   .map .address-block {
